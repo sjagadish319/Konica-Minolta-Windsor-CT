@@ -1,0 +1,253 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-11-18T11:31:00.796Z",
+    "end": "2019-11-18T11:31:53.732Z",
+    "duration": 52936,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c27d658d-b54a-4be0-94c4-3ae6ac005b1f",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "172c5017-61ee-4240-9f3e-eced05aead11",
+          "title": "One Drive Application Automation",
+          "fullFile": "C:\\git\\selenium_NodeJs\\test\\homePage.test.js",
+          "file": "\\test\\homePage.test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "One Drive Application Automation \"before all\" hook",
+              "timedOut": false,
+              "duration": 3974,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "page = new Page();\ndriver = page.driver;\nawait page.visit(tData.url);",
+              "err": {},
+              "uuid": "514e76f7-5120-4af0-9c10-ace8c296fca2",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook",
+              "fullTitle": "One Drive Application Automation \"after all\" hook",
+              "timedOut": false,
+              "duration": 27,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.quit();",
+              "err": {},
+              "uuid": "31ac95fa-4440-4685-8059-2fdf40719ac1",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login into One Drive Application",
+              "fullTitle": "One Drive Application Automation Login into One Drive Application",
+              "timedOut": false,
+              "duration": 19828,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.loginToApplication();",
+              "err": {},
+              "uuid": "2ecb3ed3-06cb-4e09-9b92-a339131b19cb",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigate to Documents Page",
+              "fullTitle": "One Drive Application Automation Navigate to Documents Page",
+              "timedOut": false,
+              "duration": 4251,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.gotoDocuments();",
+              "err": {},
+              "uuid": "f1ec8266-3a20-4f75-b831-d29631f0b8de",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the Meta Data",
+              "fullTitle": "One Drive Application Automation Verify the Meta Data",
+              "timedOut": false,
+              "duration": 8299,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.verifyMetaData();",
+              "err": {},
+              "uuid": "ac6ac3a4-18f0-482c-9029-278a86e25141",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Select and Open file",
+              "fullTitle": "One Drive Application Automation Select and Open file",
+              "timedOut": false,
+              "duration": 4139,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.openFile();",
+              "err": {},
+              "uuid": "533065f1-f83b-4b34-a669-6172f5f628ee",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update and close the edit mode",
+              "fullTitle": "One Drive Application Automation Update and close the edit mode",
+              "timedOut": false,
+              "duration": 4223,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// await page.upDateFile();\nawait page.closeEditMode();",
+              "err": {},
+              "uuid": "e15a0821-9b1e-448e-a101-6d7bf19d7489",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Download the file",
+              "fullTitle": "One Drive Application Automation Download the file",
+              "timedOut": false,
+              "duration": 4074,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.downloadFile();",
+              "err": {},
+              "uuid": "661a087c-191c-4d8d-8023-a963b965c934",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete and verify the message",
+              "fullTitle": "One Drive Application Automation Delete and verify the message",
+              "timedOut": false,
+              "duration": 4100,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await page.deleteFileAndVerify();",
+              "err": {},
+              "uuid": "9aa6c417-da80-4de4-83d8-3f771239b83a",
+              "parentUUID": "172c5017-61ee-4240-9f3e-eced05aead11",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2ecb3ed3-06cb-4e09-9b92-a339131b19cb",
+            "f1ec8266-3a20-4f75-b831-d29631f0b8de",
+            "ac6ac3a4-18f0-482c-9029-278a86e25141",
+            "533065f1-f83b-4b34-a669-6172f5f628ee",
+            "e15a0821-9b1e-448e-a101-6d7bf19d7489",
+            "661a087c-191c-4d8d-8023-a963b965c934",
+            "9aa6c417-da80-4de4-83d8-3f771239b83a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 48914,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 50000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "autoOpen": "true"
+      },
+      "version": "4.0.1"
+    }
+  }
+}
